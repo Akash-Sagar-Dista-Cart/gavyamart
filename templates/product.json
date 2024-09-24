@@ -26,7 +26,7 @@
           }
         },
         "judge_me_reviews_preview_badge_FAkQHR": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -46,7 +46,7 @@
           "type": "text",
           "settings": {
             "text": "",
-            "content": "<p>{{ product.metafields.custom.short_description | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.short_description | metafield_tag }}</p>",
             "text_style": "body"
           }
         },
@@ -76,6 +76,12 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "share_tHqe9c": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -87,7 +93,8 @@
         "text_AUabPj",
         "icon_with_text_dzgBVp",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "share_tHqe9c"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -120,14 +127,14 @@
           "disabled": true,
           "settings": {
             "title": "General Directions",
-            "content": "<p>Desi Cow Ghee can be added to any dish to enhance digestion and absorption of nutrients. Add 1 tsp to each meal or use ghee in replacement of butter or oil in a recipe.<\/p>"
+            "content": "<p>Desi Cow Ghee can be added to any dish to enhance digestion and absorption of nutrients. Add 1 tsp to each meal or use ghee in replacement of butter or oil in a recipe.</p>"
           }
         },
         "text_dADHzD": {
           "type": "text",
           "settings": {
             "title": "Features ",
-            "content": "<p><strong>Strengthens immunity and helps in bone development:<\/strong> As kids, we were given a spoonful of desi ghee daily to boost our immunity and make our bones strong. Desi ghee acts as a strong microbial, anti-cancer and antiviral agent. It is a rich source of fat soluble vitamins that help in growth and development of the bones. <\/p><p><br\/><strong>Good for your heart:<\/strong> Vitamin K2 found in desi ghee helps in preventing calcium deposits in the arteries that can lead to blockages and obstruct blood flow. It lowers bad cholesterol levels and increases good cholesterol levels, thus maintaining a healthy balance.<\/p><p><br\/><strong>Packed with Fat-Soluble Vitamins:<\/strong> Adding a few servings of ghee into your day is an excellent way to squeeze in some extra fat-soluble vitamins. Ghee can help boost your intake of vitamin A, vitamin E and vitamin K, all important nutrients that play a role in everything from maintaining healthy vision to keeping your skin glowing.<\/p><p><br\/><strong>Free of Lactose and Casein:<\/strong> One of the best ghee benefits is that it’s free of lactose and casein protein. Some individuals have a milk allergy, which may stem from a heightened sensitivity to casein, and others may be hypersensitive to lactose. For individuals with a casein allergy, the reaction may include swelling of lips, mouth, tongue, face or throat; hives; or congestion. People who are suffering from lactose sensitivity can use Bilona ghee which can meet your daily need.<\/p><p><br\/><strong>Contains Conjugated Linoleic Acid:<\/strong> Ghee is jam-packed with conjugated linoleic acid (CLA), a fatty acid associated with a long list of health benefits. Some studies have found that CLA may be effective in reducing body fat, preventing cancer formation, alleviating inflammation and even lowering blood pressure. Keep in mind that grass-fed dairy provides a higher concentration of this important fatty acid.<\/p>{{ product.metafields.custom.general_direction | metafield_tag }}"
+            "content": "<p><strong>Strengthens immunity and helps in bone development:</strong> As kids, we were given a spoonful of desi ghee daily to boost our immunity and make our bones strong. Desi ghee acts as a strong microbial, anti-cancer and antiviral agent. It is a rich source of fat soluble vitamins that help in growth and development of the bones. </p><p><br/><strong>Good for your heart:</strong> Vitamin K2 found in desi ghee helps in preventing calcium deposits in the arteries that can lead to blockages and obstruct blood flow. It lowers bad cholesterol levels and increases good cholesterol levels, thus maintaining a healthy balance.</p><p><br/><strong>Packed with Fat-Soluble Vitamins:</strong> Adding a few servings of ghee into your day is an excellent way to squeeze in some extra fat-soluble vitamins. Ghee can help boost your intake of vitamin A, vitamin E and vitamin K, all important nutrients that play a role in everything from maintaining healthy vision to keeping your skin glowing.</p><p><br/><strong>Free of Lactose and Casein:</strong> One of the best ghee benefits is that it’s free of lactose and casein protein. Some individuals have a milk allergy, which may stem from a heightened sensitivity to casein, and others may be hypersensitive to lactose. For individuals with a casein allergy, the reaction may include swelling of lips, mouth, tongue, face or throat; hives; or congestion. People who are suffering from lactose sensitivity can use Bilona ghee which can meet your daily need.</p><p><br/><strong>Contains Conjugated Linoleic Acid:</strong> Ghee is jam-packed with conjugated linoleic acid (CLA), a fatty acid associated with a long list of health benefits. Some studies have found that CLA may be effective in reducing body fat, preventing cancer formation, alleviating inflammation and even lowering blood pressure. Keep in mind that grass-fed dairy provides a higher concentration of this important fatty acid.</p>{{ product.metafields.custom.general_direction | metafield_tag }}"
           }
         },
         "benefits_aQwmRH": {
@@ -166,7 +173,7 @@
           "settings": {
             "icon": "{{ product.metafields.custom.did_you_know_.value.icon_one.value }}",
             "title": "{{ product.metafields.custom.did_you_know_.value.icon_one_title.value }}",
-            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_one_desc1 | metafield_tag }}<\/p>"
+            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_one_desc1 | metafield_tag }}</p>"
           }
         },
         "feature_block_gX3qj7": {
@@ -182,7 +189,7 @@
           "settings": {
             "icon": "{{ product.metafields.custom.did_you_know_.value.icon_two.value }}",
             "title": "{{ product.metafields.custom.did_you_know_.value.icon_two_title.value }}",
-            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_two_desc1 | metafield_tag }}<\/p>"
+            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_two_desc1 | metafield_tag }}</p>"
           }
         },
         "feature_block_TJnKeb": {
@@ -191,7 +198,7 @@
           "settings": {
             "icon": "{{ product.metafields.custom.did_you_know_.value.icon_three.value }}",
             "title": "{{ product.metafields.custom.did_you_know_.value.icon_three_title.value }}",
-            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_three_desc1 | metafield_tag }}<\/p>"
+            "description": "<p>{{ product.metafields.custom.did_you_know_.value.icon_three_desc1 | metafield_tag }}</p>"
           }
         }
       },
@@ -219,8 +226,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/p1ERK1FETn8?feature=shared",
-        "cover_image": "shopify:\/\/shop_images\/FP7A5456.png",
+        "video_url": "https://youtu.be/p1ERK1FETn8?feature=shared",
+        "cover_image": "shopify://shop_images/FP7A5456.png",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -228,13 +235,13 @@
         "padding_bottom": 36,
         "title": "A Boon From Nature's Treasure",
         "sub-description": "Our Hallikar Cow Ghee is made from the A2 milk of Desi Hallikar cows from Karnataka using the ancient Bilona-churning method, keeping it rich in essential nutrients.",
-        "icon1": "shopify:\/\/shop_images\/natural_2.png",
+        "icon1": "shopify://shop_images/natural_2.png",
         "title1": "Natural Wellness",
         "subtitle1": "",
-        "icon2": "shopify:\/\/shop_images\/nature-product_1.png",
+        "icon2": "shopify://shop_images/nature-product_1.png",
         "title2": "Purely Organic",
         "subtitle2": "",
-        "icon3": "shopify:\/\/shop_images\/free.png",
+        "icon3": "shopify://shop_images/free.png",
         "title3": "Preservatives Free",
         "subtitle3": ""
       }
@@ -247,7 +254,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.product_faq_s.value.question_1.value }}",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_1.value }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_1.value }}</p>",
             "page": ""
           }
         },
@@ -256,7 +263,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.product_faq_s.value.question_2.value }}",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_2.value }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_2.value }}</p>",
             "page": ""
           }
         },
@@ -265,7 +272,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.product_faq_s.value.question_3.value }}",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_3.value }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_3.value }}</p>",
             "page": ""
           }
         },
@@ -274,7 +281,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.product_faq_s.value.question_4.value }}",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_4.value }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.product_faq_s.value.ans_4.value }}</p>",
             "page": ""
           }
         }
@@ -323,19 +330,19 @@
       "disabled": true,
       "settings": {
         "title": "Product Collage",
-        "image1": "shopify:\/\/shop_images\/PathmedaGauPremDhoopbati01_1.png",
-        "image2": "shopify:\/\/shop_images\/WhatsApp_Image_2024-04-06_at_18.11.24_156dacaf.jpg",
-        "image3": "shopify:\/\/shop_images\/WhatsAppImage2022-05-19at12.59.08PM.jpg",
-        "image4": "shopify:\/\/shop_images\/WhatsAppImage2023-09-20at4.50.17PM.jpg",
-        "image5": "shopify:\/\/shop_images\/9.webp",
-        "image6": "shopify:\/\/shop_images\/WhatsApp_Image_2024-04-16_at_14.57.51_a3c65606.png"
+        "image1": "shopify://shop_images/PathmedaGauPremDhoopbati01_1.png",
+        "image2": "shopify://shop_images/WhatsApp_Image_2024-04-06_at_18.11.24_156dacaf.jpg",
+        "image3": "shopify://shop_images/WhatsAppImage2022-05-19at12.59.08PM.jpg",
+        "image4": "shopify://shop_images/WhatsAppImage2023-09-20at4.50.17PM.jpg",
+        "image5": "shopify://shop_images/9.webp",
+        "image6": "shopify://shop_images/WhatsApp_Image_2024-04-16_at_14.57.51_a3c65606.png"
       }
     },
     "1713504574ec0b922c": {
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_3eHtwr": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -353,7 +360,7 @@
         "feature_block_AtWpRn": {
           "type": "feature_block",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/499479-200-helth.png",
+            "icon": "shopify://shop_images/499479-200-helth.png",
             "title": "Health Outcomes",
             "description": "Ayurvedic solutions delivered thoughtfully"
           }
@@ -361,7 +368,7 @@
         "feature_block_b3fXUa": {
           "type": "feature_block",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/ayurvedic_1.png",
+            "icon": "shopify://shop_images/ayurvedic_1.png",
             "title": "Bespoke Ayurveda",
             "description": "Programs crafted by Ayurvedacharayas"
           }
@@ -369,7 +376,7 @@
         "feature_block_6KJq9t": {
           "type": "feature_block",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/pngtree-flat-icon-for-customer-support-a-symbol-for-social-assistance-vector-png-image_12754404_1.png",
+            "icon": "shopify://shop_images/pngtree-flat-icon-for-customer-support-a-symbol-for-social-assistance-vector-png-image_12754404_1.png",
             "title": "Real Assistance",
             "description": "Ayurvedic Health Experts"
           }
@@ -377,7 +384,7 @@
         "feature_block_zXzYDb": {
           "type": "feature_block",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/natural_100x_1.png",
+            "icon": "shopify://shop_images/natural_100x_1.png",
             "title": "Natural Ingredients",
             "description": "Carefully handpicked and sourced"
           }
