@@ -222,6 +222,7 @@
     },
     "vedio_icons_product_page_bXHm8N": {
       "type": "vedio-icons-product-page",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
