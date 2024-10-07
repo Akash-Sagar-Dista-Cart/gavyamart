@@ -292,6 +292,7 @@
     },
     "product_collage_zWJQDF": {
       "type": "product-collage",
+      "disabled": true,
       "settings": {
         "title": "Product Collage",
         "image1": "shopify://shop_images/A2BilonaGheeSubscription.jpg",
@@ -367,10 +368,9 @@
         },
         "button_GhcYM9": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Buy Now",
+            "button_link": "shopify://products/gavyamart-a2-bilona-ghee",
             "button_style_secondary": false
           }
         }
