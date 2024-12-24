@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -15,13 +24,12 @@
         "paragraph_YcrBJQ": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Don't miss out on exclusive deals and discounts! Subscribe now and be the first to know<\/p>"
+            "text": "<p>Don't miss out on exclusive deals and discounts! Subscribe now and be the first to know</p>"
           }
         },
         "email_form_g4KRHj": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -39,6 +47,19 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_hXnLNp": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "text_FBtA7p": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact Us",
+            "subtext": "<p>Gavyamart Panchgavya Utpad Pvt. Ltd.<br/>Shree Nandanvan Godham Mahatirth Village Sherpura Dist. Banaskantha Gujarat 385535</p><p><strong>Phone:</strong> +91-7073667733 (Mon-Fri 8:00-16:00)<br/><strong>WhatsApp</strong> : 7424846633<br/><strong>E-mail</strong>: info@gavyamart.com</p>"
+          }
+        },
         "link_list_ANbxiP": {
           "type": "link_list",
           "settings": {
@@ -52,26 +73,13 @@
             "heading": "Policies",
             "menu": "policies"
           }
-        },
-        "brand_information_hXnLNp": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
-        "text_FBtA7p": {
-          "type": "text",
-          "settings": {
-            "heading": "Contact Us",
-            "subtext": "<p>Gavyamart Panchgavya Utpad Pvt. Ltd.<br\/>Shree Nandanvan Godham Mahatirth Village Sherpura Dist. Banaskantha Gujarat 385535<\/p><p><strong>Phone:<\/strong> +91-7073667733 (Mon-Fri 8:00-16:00)<br\/><strong>WhatsApp<\/strong> : 7424846633<br\/><strong>E-mail<\/strong>: info@gavyamart.com<\/p>"
-          }
         }
       },
       "block_order": [
-        "link_list_ANbxiP",
-        "link_list_RpYqQP",
         "brand_information_hXnLNp",
-        "text_FBtA7p"
+        "text_FBtA7p",
+        "link_list_ANbxiP",
+        "link_list_RpYqQP"
       ],
       "settings": {
         "color_scheme": "scheme-5",
