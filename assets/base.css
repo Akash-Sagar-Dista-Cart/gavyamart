@@ -3583,7 +3583,7 @@ header-menu summary,.header__inline-menu > ul > li > a,localization-form .disclo
   display: flex;
     gap: 4px;
 }
-.footer-contact p svg{
+.footer-contact p.adrress svg{
   width:30%;
 }
 .footer-contact p span{
