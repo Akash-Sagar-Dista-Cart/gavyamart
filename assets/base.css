@@ -3578,3 +3578,14 @@ header-menu summary,.header__inline-menu > ul > li > a,localization-form .disclo
   margin:0!important;
   padding-top:12px !important;
 }
+/* footer css */
+.footer-contact p {
+  display: flex;
+    gap: 4px;
+}
+.footer-contact p svg{
+  width:30%;
+}
+.footer-contact p span{
+  margin-top:-2px;
+}
