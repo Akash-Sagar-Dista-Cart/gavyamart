@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -20,7 +20,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Visit Our Indian  Store",
-            "link": "https://www.gavyamart.in/",
+            "link": "shopify://products/gavyamart-a2-bilona-ghee",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
